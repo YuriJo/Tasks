@@ -11,7 +11,7 @@
 # 
 # Thank you, 
 # Yuri Zholobov
-# y.a.zolobov@gmail.com
+# y.a.zholobov@gmail.com
 
 import yaml, numbers, sys
 
