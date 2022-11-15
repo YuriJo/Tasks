@@ -1,0 +1,5 @@
+stacks: # list of pizza stacks are below. You should call them as stack_[1,2..n] where n is integer
+      - stack_1: [1,1,1,3,2,3,1,1,1]
+      - stack_2: [0,1,1,1,1,3,4,2]
+      - stack_3: [1,1,1,1,1,1,1,1]
+# first element is the bottom of a stack.
