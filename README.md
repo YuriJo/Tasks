@@ -1,5 +1,7 @@
 # Tractive
-This repo exceptionally for testing tasks
+This repo is exceptionally for testing tasks.
+
+This problem has a way simpler solution. Moreover, I made it for any number of stacks, but not for only 3. 
 
 
 pizza.py - script with the solution
