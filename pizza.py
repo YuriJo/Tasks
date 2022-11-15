@@ -41,9 +41,9 @@ if __name__ == "__main__":
         level = 0    # define the base equal level 
         acc = 0      # an accumulator 
 
-        if not ( pizzas["stacks"][i]["stack_"+f][0] == 0):  # pizza with 0 thickness we do not calculate levels
-            pizzas["stacks"][i]["level_"+f] = [0]           # pizza with 0 thickness we do not calculate levels
-        else: pizzas["stacks"][i]["level_"+f] = []          # pizza with 0 thickness we do not calculate levels
+        if not ( pizzas["stacks"][i]["stack_"+f][0] == 0):  # if we have a pizza with 0 thickness in bottom we do not calculate levels
+            pizzas["stacks"][i]["level_"+f] = [0]           # 
+        else: pizzas["stacks"][i]["level_"+f] = []          # 
                                                          
         for j in range (0, len(pizzas["stacks"][i]["stack_"+f])): # make list of levels for each stack
             acc = acc + pizzas["stacks"][i]["stack_"+f][j]        # calculate next level
