@@ -1,5 +1,5 @@
 # Stacks of pizzas set in input.yaml as provided. You can make your own or change it. 
-# the bottom of a stack in the leftv- it's the first element of the array.
+# the bottom of a stack in the left - it's the first element of the array.
 # Ideas to improve: 
 # - make a reversing option - right element of the array ia a bottom (.reverse())
 # - make checking CLI args
